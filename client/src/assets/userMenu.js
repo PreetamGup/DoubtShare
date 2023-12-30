@@ -37,7 +37,10 @@ export const studentMenu = [
 
 
 export const tutorMenu = [
-   
+    {
+        tab:"Dashboard",
+        onclick: "user"
+    },
 
     {
         tab:"Create Session",
