@@ -27,7 +27,8 @@ app.use(cors(
 app.use("/user",userRouter)
 app.use("/doubt", doubtRouter)
 
+const port = process.env.PORT || 8080;
 
-app.listen(8080, ()=>{
+app.listen(port, ()=>{
     console.log("Server is listening")
 })
